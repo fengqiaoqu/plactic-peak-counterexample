@@ -1,0 +1,582 @@
+{
+  "status": "passed",
+  "direct_tableau_enumeration": {
+    "n": 10,
+    "max_m": 6,
+    "all_ssyt_enumerated": 239316,
+    "independent_all_ssyt_total": 239316,
+    "commuting_ssyt_unweighted": 3257,
+    "first_row_predicate_disagreements": 0,
+    "exact_max_tableaux_counts": [
+      0,
+      1,
+      35,
+      594,
+      5882,
+      39116,
+      193688
+    ],
+    "exact_max_commuting_word_counts": [
+      0,
+      1,
+      251,
+      5418,
+      45150,
+      224190,
+      811080
+    ],
+    "c_n_m_for_m_0_through_6": [
+      0,
+      1,
+      252,
+      5670,
+      50820,
+      275010,
+      1086090
+    ],
+    "per_shape": [
+      {
+        "partition": [
+          10
+        ],
+        "f_lambda": 1,
+        "all_ssyt": 3003,
+        "commuting_ssyt": 1
+      },
+      {
+        "partition": [
+          9,
+          1
+        ],
+        "f_lambda": 9,
+        "all_ssyt": 9009,
+        "commuting_ssyt": 5
+      },
+      {
+        "partition": [
+          8,
+          2
+        ],
+        "f_lambda": 35,
+        "all_ssyt": 15015,
+        "commuting_ssyt": 15
+      },
+      {
+        "partition": [
+          8,
+          1,
+          1
+        ],
+        "f_lambda": 36,
+        "all_ssyt": 10296,
+        "commuting_ssyt": 10
+      },
+      {
+        "partition": [
+          7,
+          3
+        ],
+        "f_lambda": 75,
+        "all_ssyt": 17325,
+        "commuting_ssyt": 35
+      },
+      {
+        "partition": [
+          7,
+          2,
+          1
+        ],
+        "f_lambda": 160,
+        "all_ssyt": 21120,
+        "commuting_ssyt": 40
+      },
+      {
+        "partition": [
+          7,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 84,
+        "all_ssyt": 5544,
+        "commuting_ssyt": 10
+      },
+      {
+        "partition": [
+          6,
+          4
+        ],
+        "f_lambda": 90,
+        "all_ssyt": 13860,
+        "commuting_ssyt": 70
+      },
+      {
+        "partition": [
+          6,
+          3,
+          1
+        ],
+        "f_lambda": 315,
+        "all_ssyt": 24255,
+        "commuting_ssyt": 105
+      },
+      {
+        "partition": [
+          6,
+          2,
+          2
+        ],
+        "f_lambda": 225,
+        "all_ssyt": 12375,
+        "commuting_ssyt": 50
+      },
+      {
+        "partition": [
+          6,
+          2,
+          1,
+          1
+        ],
+        "f_lambda": 350,
+        "all_ssyt": 11550,
+        "commuting_ssyt": 45
+      },
+      {
+        "partition": [
+          6,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 126,
+        "all_ssyt": 1386,
+        "commuting_ssyt": 5
+      },
+      {
+        "partition": [
+          5,
+          5
+        ],
+        "f_lambda": 42,
+        "all_ssyt": 5292,
+        "commuting_ssyt": 126
+      },
+      {
+        "partition": [
+          5,
+          4,
+          1
+        ],
+        "f_lambda": 288,
+        "all_ssyt": 16128,
+        "commuting_ssyt": 224
+      },
+      {
+        "partition": [
+          5,
+          3,
+          2
+        ],
+        "f_lambda": 450,
+        "all_ssyt": 15750,
+        "commuting_ssyt": 175
+      },
+      {
+        "partition": [
+          5,
+          3,
+          1,
+          1
+        ],
+        "f_lambda": 567,
+        "all_ssyt": 11907,
+        "commuting_ssyt": 126
+      },
+      {
+        "partition": [
+          5,
+          2,
+          2,
+          1
+        ],
+        "f_lambda": 525,
+        "all_ssyt": 7875,
+        "commuting_ssyt": 75
+      },
+      {
+        "partition": [
+          5,
+          2,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 448,
+        "all_ssyt": 2688,
+        "commuting_ssyt": 24
+      },
+      {
+        "partition": [
+          5,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 126,
+        "all_ssyt": 126,
+        "commuting_ssyt": 1
+      },
+      {
+        "partition": [
+          4,
+          4,
+          2
+        ],
+        "f_lambda": 252,
+        "all_ssyt": 7056,
+        "commuting_ssyt": 420
+      },
+      {
+        "partition": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "f_lambda": 300,
+        "all_ssyt": 5040,
+        "commuting_ssyt": 280
+      },
+      {
+        "partition": [
+          4,
+          3,
+          3
+        ],
+        "f_lambda": 210,
+        "all_ssyt": 4410,
+        "commuting_ssyt": 175
+      },
+      {
+        "partition": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "f_lambda": 768,
+        "all_ssyt": 8064,
+        "commuting_ssyt": 280
+      },
+      {
+        "partition": [
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 525,
+        "all_ssyt": 2205,
+        "commuting_ssyt": 70
+      },
+      {
+        "partition": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "f_lambda": 300,
+        "all_ssyt": 1800,
+        "commuting_ssyt": 50
+      },
+      {
+        "partition": [
+          4,
+          2,
+          2,
+          1,
+          1
+        ],
+        "f_lambda": 567,
+        "all_ssyt": 1701,
+        "commuting_ssyt": 45
+      },
+      {
+        "partition": [
+          4,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 350,
+        "all_ssyt": 210,
+        "commuting_ssyt": 5
+      },
+      {
+        "partition": [
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 84,
+        "all_ssyt": 0,
+        "commuting_ssyt": 0
+      },
+      {
+        "partition": [
+          3,
+          3,
+          3,
+          1
+        ],
+        "f_lambda": 210,
+        "all_ssyt": 1470,
+        "commuting_ssyt": 315
+      },
+      {
+        "partition": [
+          3,
+          3,
+          2,
+          2
+        ],
+        "f_lambda": 252,
+        "all_ssyt": 1176,
+        "commuting_ssyt": 210
+      },
+      {
+        "partition": [
+          3,
+          3,
+          2,
+          1,
+          1
+        ],
+        "f_lambda": 450,
+        "all_ssyt": 1050,
+        "commuting_ssyt": 175
+      },
+      {
+        "partition": [
+          3,
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 225,
+        "all_ssyt": 105,
+        "commuting_ssyt": 15
+      },
+      {
+        "partition": [
+          3,
+          2,
+          2,
+          2,
+          1
+        ],
+        "f_lambda": 288,
+        "all_ssyt": 384,
+        "commuting_ssyt": 40
+      },
+      {
+        "partition": [
+          3,
+          2,
+          2,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 315,
+        "all_ssyt": 105,
+        "commuting_ssyt": 10
+      },
+      {
+        "partition": [
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 160,
+        "all_ssyt": 0,
+        "commuting_ssyt": 0
+      },
+      {
+        "partition": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 36,
+        "all_ssyt": 0,
+        "commuting_ssyt": 0
+      },
+      {
+        "partition": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "f_lambda": 42,
+        "all_ssyt": 21,
+        "commuting_ssyt": 15
+      },
+      {
+        "partition": [
+          2,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "f_lambda": 90,
+        "all_ssyt": 15,
+        "commuting_ssyt": 10
+      },
+      {
+        "partition": [
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 75,
+        "all_ssyt": 0,
+        "commuting_ssyt": 0
+      },
+      {
+        "partition": [
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 35,
+        "all_ssyt": 0,
+        "commuting_ssyt": 0
+      },
+      {
+        "partition": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 9,
+        "all_ssyt": 0,
+        "commuting_ssyt": 0
+      },
+      {
+        "partition": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "f_lambda": 1,
+        "all_ssyt": 0,
+        "commuting_ssyt": 0
+      }
+    ]
+  },
+  "independent_polynomial_interpolation": {
+    "n": 10,
+    "interpolation_m_values": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "c_n_m_at_interpolation_values": [
+      49807595,
+      101412784,
+      194002051,
+      352242670,
+      611804935,
+      1022861455,
+      1654328158,
+      2598939073,
+      3979251830,
+      5954685690
+    ],
+    "basis": "binomial(m,k), k=0,...,9; NOT binomial(m-1,k)",
+    "method": "Jacobi-Trudi determinant for s_tail(1^(m-1)); reciprocal-factorial determinant for f_lambda; interpolate only at m>=n.",
+    "coefficients_a_0_through_9": [
+      0,
+      1,
+      250,
+      4917,
+      29648,
+      75095,
+      88704,
+      43414,
+      4861,
+      1
+    ]
+  },
+  "direct_newton_coefficients_a_0_through_6": [
+    0,
+    1,
+    250,
+    4917,
+    29648,
+    75095,
+    88704
+  ],
+  "a_5": 75095,
+  "a_6": 88704,
+  "difference_a_6_minus_a_5": 13609,
+  "verdict": "The n=10 polynomial in the original binomial(m,k) basis violates Sagan-Wilson arXiv:2410.20460v1 Conjecture 6.3(d): ceil(10/2)=5 but a_6>a_5.",
+  "scope": "Only the prescribed peak location is refuted; no log-concavity or first-discovery conclusion.",
+  "independent_methods": true
+}

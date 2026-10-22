@@ -1,0 +1,25 @@
+{
+  "as_of": "2026-10-22",
+  "repository": "https://github.com/fengqiaoqu/plactic-peak-counterexample",
+  "result": "An n=10 counterexample to the Sagan-Wilson peak-location conjecture",
+  "target": {
+    "journal": "Centralizers in the plactic monoid, Semigroup Forum 110 (2025), 724-744",
+    "doi": "10.1007/s00233-025-10535-0",
+    "conjecture": "7.3(d)",
+    "page": 742,
+    "preprint": "arXiv:2410.20460v1, Conjecture 6.3(d)"
+  },
+  "n": 10,
+  "coefficient_basis": "binomial(m,k)",
+  "a_0_to_9": [0, 1, 250, 4917, 29648, 75095, 88704, 43414, 4861, 1],
+  "predicted_peak": 5,
+  "actual_unique_peak": 6,
+  "a6_minus_a5": 13609,
+  "verification": "Exact arithmetic with independently implemented counting methods",
+  "proof_assistant_formalization": false,
+  "external_peer_review": false,
+  "first_discovery_or_priority_established": false,
+  "general_kronecker_positive_rule_solved": false,
+  "log_concavity_clause_resolved_here": false,
+  "ai_assistance": "OpenAI Codex assisted the exploration, writing and implementation; AI subagent checks are not external peer review."
+}
